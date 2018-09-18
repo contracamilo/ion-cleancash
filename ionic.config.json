@@ -1,0 +1,7 @@
+{
+  "name": "cleancash-ionic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

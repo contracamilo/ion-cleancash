@@ -16,6 +16,8 @@ import { SIngUpPage } from '../pages/s-ing-up/s-ing-up';
 import { TabsControllerPage } from '../pages/tabs-controller/tabs-controller';
 import { RecolecciNUsuarioPage } from '../pages/recolecci-nusuario/recolecci-nusuario';
 import { RecRecolectorPage } from '../pages/rec-recolector/rec-recolector';
+import { Login2Page } from '../pages/login2/login2';
+import { SignupPage } from '../pages/signup/signup';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -37,7 +39,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SIngUpPage,
     TabsControllerPage,
     RecolecciNUsuarioPage,
-    RecRecolectorPage
+    RecRecolectorPage,
+    Login2Page,
+    SignupPage
   ],
   imports: [
     BrowserModule,
@@ -59,7 +63,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SIngUpPage,
     TabsControllerPage,
     RecolecciNUsuarioPage,
-    RecRecolectorPage
+    RecRecolectorPage,
+    Login2Page,
+    SignupPage
   ],
   providers: [
     StatusBar,

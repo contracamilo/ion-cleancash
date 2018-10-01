@@ -1,38 +1,65 @@
+import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ErrorHandler, NgModule } from '@angular/core';
-import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
-
+import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+import { CleanCashPage } from '../pages/clean-cash/clean-cash';
+import { CleanCash2Page } from '../pages/clean-cash2/clean-cash2';
+import { PerfilPage } from '../pages/perfil/perfil';
+import { ReciclaPage } from '../pages/recicla/recicla';
+import { CajaPage } from '../pages/caja/caja';
+import { CursoPage } from '../pages/curso/curso';
+import { DenunciaPage } from '../pages/denuncia/denuncia';
+import { RecolecciNPage } from '../pages/recolecci-n/recolecci-n';
+import { RedimePage } from '../pages/redime/redime';
+import { LoginPage } from '../pages/login/login';
+import { SIngUpPage } from '../pages/s-ing-up/s-ing-up';
+import { TabsControllerPage } from '../pages/tabs-controller/tabs-controller';
+import { RecolecciNUsuarioPage } from '../pages/recolecci-nusuario/recolecci-nusuario';
+import { RecRecolectorPage } from '../pages/rec-recolector/rec-recolector';
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { LoginPageModule } from '../pages/login/login.module';
-import { ProfilePageModule } from '../pages/profile/profile.module';
-import { CoversationPageModule } from '../pages/coversation/coversation.module';
-
-
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
-    ListPage
+    CleanCashPage,
+    CleanCash2Page,
+    PerfilPage,
+    ReciclaPage,
+    CajaPage,
+    CursoPage,
+    DenunciaPage,
+    RecolecciNPage,
+    RedimePage,
+    LoginPage,
+    SIngUpPage,
+    TabsControllerPage,
+    RecolecciNUsuarioPage,
+    RecRecolectorPage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
-    LoginPageModule,
-    ProfilePageModule,
-    CoversationPageModule
-
+    IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
-    ListPage
+    CleanCashPage,
+    CleanCash2Page,
+    PerfilPage,
+    ReciclaPage,
+    CajaPage,
+    CursoPage,
+    DenunciaPage,
+    RecolecciNPage,
+    RedimePage,
+    LoginPage,
+    SIngUpPage,
+    TabsControllerPage,
+    RecolecciNUsuarioPage,
+    RecRecolectorPage
   ],
   providers: [
     StatusBar,
